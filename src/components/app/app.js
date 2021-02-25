@@ -7,7 +7,7 @@ import PostList from "../post-list";
 import PostAddForm from "../post-add-form";
 
 import "./app.css";
-
+import styled from 'styled-components';
 const App = () => {
   const data = [
     { label: "Going to learn react", important: false, id: 'wer' },
