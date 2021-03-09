@@ -21,11 +21,11 @@ const Header = styled.div`
   }
 `
 
-const AppHeader = () => {
+const AppHeader = ({liked, allPosts}) => {
   return (
       <Header>
           <h1>Roman Yanenko</h1>
-          <h2>5 posts, of which like 0</h2>
+          <h2>{allPosts} posts, of which like {liked}</h2>
       </Header>
   );
 };
